@@ -1,0 +1,28 @@
+[Iron Sword]
+POW:4,ACC:100,AP:0,DEF:0,RES:0,AGI:0,Range:1,NullRange:0,Passive:0,MagicDmg:0,AoE:0,Radius:0,Value:250,Req1:STR,:0,Req2:,:,XP1:STR,:10,XP2:,:,
+:PierceDef,:InflictPoison,
+An sword made of shiny iron. Good for cutting guys who need get cut.
+[Blowback Pistol]
+POW:3,ACC:70,AP:1,DEF:0,RES:0,AGI:0,Range:2,NullRange:0,Passive:0,MagicDmg:0,AoE:0,Radius:0,Value:300,Req1:DEX,:0,Req2:,:,XP1:DEX,:10,XP2:,:,
+:,
+A gun that fires backwards and forwards. Fire it away from the body.
+[Reflex Bow]
+POW:2,ACC:90,AP:1,DEF:0,RES:0,AGI:0,Range:3,NullRange:1,Passive:0,MagicDmg:0,AoE:0,Radius:0,Value:200,Req1:STR,:0,Req2:DEX,:0,XP1:DEX,:10,XP2:,:,
+:,
+High-precision bow which lets fly seriously hurtfully wooden stickers.
+[Fire]
+POW:5,ACC:90,AP:1,DEF:0,RES:0,AGI:0,Range:3,NullRange:0,Passive:0,MagicDmg:1,AoE:0,Radius:0,Value:400,Req1:TCH,:0,Req2:,:,XP1:TCH,:10,XP2:,:,
+:Fire,
+Powerful burn magic.
+[Water]
+POW:4,ACC:100,AP:1,DEF:0,RES:0,AGI:0,Range:3,NullRange:0,Passive:0,MagicDmg:1,AoE:0,Radius:0,Value:450,Req1:TCH,:1,Req2:,:,XP1:TCH,:10,XP2:,:,
+:Water,:Slow,
+Drowning magic. May inflict slow.
+[Iron Shield]
+POW:0,ACC:0,AP:0,DEF:1,RES:1,AGI:0,Range:0,NullRange:0,Passive:1,MagicDmg:0,AoE:0,Radius:0,Value:100,Req1:STR,:0,Req2:,:,XP1:STR,:10,XP2:,:,
+:,
+Raises DEF by 1. How does the action know this? Maybe flags can make use of equals signs? Or maybe RaiseDEF, requiring a number, indicates the next slot will be a number?
+[Heavy Armor]
+POW:0,ACC:0,AP:0,DEF:2,RES:0,AGI:-1,Range:0,NullRange:0,Passive:1,MagicDmg:0,AoE:0,Radius:0,Value:350,Req1:STR,:1,Req2:,:,XP1:STR,:10,XP2:,:,
+:,
+Makes you look super bad-ass. Wear it over your favorite body parts.
